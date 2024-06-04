@@ -1,0 +1,65 @@
+    1  help
+    2  help ls
+    3  help help
+    4  help cd
+    5  cd Postman/
+    6  ls
+    7  cd..
+    8  cd~
+    9  ls -1
+   10  cd/
+   11  cd/d/
+   12  ls -l
+   13  clear
+   14  vim
+   15  git config --global user.name "Dorka Mariana"
+   16  git config --global user.email marjana.kozak1@gmail.com
+   17  git config --get user.name
+   18  git config --get user.email
+   19  git clone https://github.com/MarjanaDo/HW_10.git
+   20  cd HW_10/
+   21  git config --get user.name
+   22  git config --get user.email
+   23  git clone https://github.com/MarjanaDo/HW_10.git
+   24  cd HW_10/
+   25  git status 
+   26  touch text_ignore.txt
+   27  ls
+   28  vim .gitignore
+   29  git status
+   30  git add text_ignore.txt
+   31  git status
+   32  git add .gitignore
+   33  git status
+   34  git add .gitignore.swp
+   35  git status
+   36  git commit -m "created a new file
+   37  git commit -m "created a new file"
+   38  git status
+   39  git status
+   40  git commit -m "create a new file"
+   41  touch main_text.txt
+   42  ls
+   43  git add main_text.txt
+   44  dit status
+   45  git status
+   46  commit -m "created a new file named main_text.txt"
+   47  git commit -m "created a new file named main_text.txt"
+   48  git log
+   49  git branch
+   50  git checkout -b develop
+   51  git branch
+   52  touch develop_text.txt
+   53  git add develop_text.txt
+   54  git commit -m "added develop_test.txt file"
+   55  git branch
+   56  vim .gitignore
+   57  vim develop_test.txt
+   58  git status
+   59  git add develop_test.txt
+   60  git status
+   61  git commit -m "created a new file develop_test.txt"
+   62  git checkout main
+   63  git merge develop
+   64  git log
+   65  history > command_list.csv
